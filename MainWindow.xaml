@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RegistroUsuariosyLogin"
         mc:Ignorable="d"
-        Title="Registro de Usuarios" Height="400" Width="400" WindowStartupLocation="CenterScreen" Icon="/Imagenes/HomeUser.png"  ResizeMode="CanMinimize">
+        Title="Registro de Usuarios" Height="300" Width="400" WindowStartupLocation="CenterScreen" Icon="/Imagenes/HomeUser.png"  ResizeMode="CanMinimize">
        <Grid>
 <StackPanel>
             <Menu Height="24" FontSize="15">
@@ -25,6 +25,10 @@
             
             </MenuItem>
             </Menu>
+             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image Source="/Imagenes/HomeUser.png" Width="90"/>
+            <Label Content="Bienvenido" FontWeight="Bold" Height="50" FontSize="36" HorizontalAlignment="Center" />
+        </StackPanel>
         </StackPanel>
     </Grid>
 </Window>

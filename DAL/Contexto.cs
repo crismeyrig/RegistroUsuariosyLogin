@@ -2,6 +2,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using RegistroUsuariosyLogin.Entidades;
 
+
 namespace RegistroUsuariosyLogin.DAL
 {
     public class Contexto:DbContext
